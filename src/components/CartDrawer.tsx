@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect } from "react";
@@ -77,7 +77,7 @@ export default function CartDrawer() {
                         className="flex gap-4"
                       >
                         <div data-art className="relative h-24 w-20 shrink-0 overflow-hidden" style={{ background: art.color }}>
-                          <Image src={art.src} alt="" fill sizes="80px" className="object-cover" />
+                          <ArtImg art={art} size="s" fill className="object-cover" />
                         </div>
                         <div className="flex flex-1 flex-col justify-between">
                           <div>
@@ -147,7 +147,7 @@ export default function CartDrawer() {
 export function CartButton() {
   const { items, setOpen } = useCart();
   return (
-    <button onClick={() => setOpen(true)} className="pointer-events-auto eyebrow flex items-center gap-2 pt-1" data-cursor="Your set">
+    <button onClick={() => setOpen(true)} className="pointer-events-auto eyebrow flex items-center gap-2" data-cursor="Your set">
       <span>Set</span>
       <span className="flex h-5 min-w-5 items-center justify-center rounded-full border border-current px-1.5 text-[10px]">
         {items.length}

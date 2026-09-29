@@ -1,6 +1,9 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import ArtImg from "./ArtImg";
+import type { Artwork } from "@/lib/art";
+import { signArt } from "@/lib/artSrc";
 
 /**
  * "Wet paint" hero. A low-res velocity field is advected every frame (ping-pong
@@ -8,7 +11,7 @@ import { useEffect, useRef, useState } from "react";
  * When the visitor stops moving, a ghost brush keeps improvising.
  */
 
-type Slide = { src: string; color: string };
+type Slide = Artwork;
 
 const VS = `#version 300 es
 in vec2 p; out vec2 uv;
@@ -221,7 +224,7 @@ export default function PaintField({
             res();
           };
           img.onerror = () => res();
-          img.src = s.src;
+          signArt(s.id, "l").then((u) => (img.src = u));
         }),
     );
 
@@ -328,7 +331,6 @@ export default function PaintField({
   }, []);
 
   if (failed)
-    // eslint-disable-next-line @next/next/no-img-element
-    return <img src={slides[0].src} alt="" className="absolute inset-0 h-full w-full object-cover" />;
+    return <ArtImg art={slides[0]} size="l" fill className="object-cover" eager />;
   return <canvas ref={ref} className="absolute inset-0 h-full w-full" />;
 }

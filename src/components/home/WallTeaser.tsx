@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
@@ -27,7 +27,7 @@ export default function WallTeaser() {
           <motion.div key={c} className="flex w-[22vw] shrink-0 flex-col gap-4 md:w-[13vw]" style={{ y: c % 2 ? down : up }}>
             {col.map((a) => (
               <div key={a.id} className="relative w-full" style={{ aspectRatio: `${a.width}/${a.height}` }}>
-                <Image src={a.src} alt="" fill sizes="13vw" className="object-cover" />
+                <ArtImg art={a} size="s" fill className="object-cover" />
               </div>
             ))}
           </motion.div>

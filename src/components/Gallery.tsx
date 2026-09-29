@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "motion/react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
@@ -31,8 +32,8 @@ export default function Gallery({ medium, items, next }: { medium: Medium; items
   return (
     <div className={paper ? "bg-paper text-ink" : "bg-ink text-paper"}>
       <section ref={hero} className="relative flex h-[92svh] min-h-[560px] flex-col justify-end overflow-hidden px-4 pb-8 md:px-8">
-        <motion.div className="absolute inset-0" style={{ scale: coverScale }}>
-          <Image src={cover.src} alt="" fill priority sizes="100vw" className={`object-cover ${paper ? "opacity-25 mix-blend-multiply" : "opacity-45"}`} />
+        <motion.div className={`absolute inset-0 ${paper ? "opacity-25 mix-blend-multiply" : "opacity-45"}`} style={{ scale: coverScale }}>
+          <ArtImg art={cover} size="l" fill className="object-cover" eager />
         </motion.div>
         <div className={`absolute inset-0 ${paper ? "bg-gradient-to-t from-paper via-paper/40 to-transparent" : "bg-gradient-to-t from-ink via-ink/30 to-transparent"}`} />
         <motion.div className="relative" style={{ y: titleY }}>
@@ -61,7 +62,7 @@ export default function Gallery({ medium, items, next }: { medium: Medium; items
       {medium.key === "light" && (
         <section className="grid gap-8 px-4 py-20 md:grid-cols-[1fr_2fr] md:px-8">
           <div className="relative aspect-[4/5] w-full max-w-sm overflow-hidden grayscale">
-            <Image src="/art/site/shailpik.jpg" alt="Shailpik Biswas" fill sizes="400px" className="object-cover" />
+            <Image src="/people/shailpik.jpg" alt="Shailpik Biswas" fill sizes="400px" className="object-cover" />
           </div>
           <div className="self-end">
             <span className="eyebrow text-paper/50">In collaboration with</span>
@@ -90,13 +91,7 @@ export default function Gallery({ medium, items, next }: { medium: Medium; items
             data-cursor="View"
           >
             <div data-art className="relative w-full overflow-hidden" style={{ aspectRatio: `${a.width}/${a.height}`, background: a.color }}>
-              <Image
-                src={a.src}
-                alt={`${medium.title}, plate ${plate(a)}`}
-                fill
-                sizes="(min-width:1280px) 25vw, (min-width:768px) 33vw, 50vw"
-                className="object-cover transition-transform duration-[1.2s] ease-[var(--ease-out)] group-hover:scale-[1.06]"
-              />
+              <ArtImg art={a} size="m" alt={`${medium.title}, plate ${plate(a)}`} fill className="object-cover transition-transform duration-[1.2s] ease-[var(--ease-out)] group-hover:scale-[1.06]" />
               <TileActions id={a.id} />
             </div>
             <div className={`eyebrow mt-2 flex justify-between ${paper ? "text-ink/50" : "text-paper/50"}`}>

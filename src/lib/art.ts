@@ -5,7 +5,7 @@ export type MediumKey = "paintings" | "digital" | "drawings" | "brush-ink" | "li
 export type Artwork = {
   id: string;
   medium: MediumKey;
-  src: string;
+  file: string;
   width: number;
   height: number;
   color: string;

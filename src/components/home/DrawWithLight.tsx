@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
@@ -117,7 +117,7 @@ export default function DrawWithLight() {
           exit={{ opacity: 0 }}
           transition={{ duration: 2.2, ease: "easeOut" }}
         >
-          <Image src={a.src} alt="" fill sizes="100vw" className="object-cover" />
+          <ArtImg art={a} size="l" fill className="object-cover" eager />
         </motion.div>
       </AnimatePresence>
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_30%,black_95%)]" />

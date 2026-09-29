@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import { motion } from "motion/react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import Lightbox from "./Lightbox";
@@ -122,12 +122,9 @@ export default function Wall() {
           onClick={() => st.current.moved < 8 && setOpen(idx)}
           data-cursor="View"
         >
-          <Image
-            src={a.src}
+          <ArtImg art={a} size="m"
             alt=""
             fill
-            sizes="260px"
-            draggable={false}
             className="pointer-events-none object-cover transition-transform duration-700 ease-[var(--ease-out)] group-hover:scale-110"
           />
           <span className="eyebrow absolute left-2 top-2 rounded-full bg-ink/70 px-2 py-1 text-[9px] text-paper opacity-0 backdrop-blur transition-opacity group-hover:opacity-100">

@@ -91,8 +91,9 @@ export default function Hero() {
     >
       <PaintField slides={slides} onReady={() => setReady(true)} onIndex={setIdx} advanceRef={advance} />
 
-      <div className="pointer-events-none absolute inset-0 flex flex-col justify-end px-4 pb-6 md:px-8 md:pb-8">
-        <h1 className="serif text-paper mix-blend-difference text-[17vw] leading-[0.82] md:text-[12.5vw]">
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[70%] bg-gradient-to-t from-ink/90 via-ink/45 to-transparent" />
+      <div className="hero-legible pointer-events-none absolute inset-0 flex flex-col justify-end px-4 pb-6 md:px-8 md:pb-8">
+        <h1 className="serif text-paper text-[17vw] leading-[0.82] md:text-[12.5vw]">
           {words.map((w, i) => (
             <span key={w} className="inline-block overflow-hidden pr-[0.18em] align-bottom">
               <motion.span
@@ -108,16 +109,16 @@ export default function Hero() {
         </h1>
 
         <motion.div
-          className="mt-6 grid grid-cols-2 items-end gap-4 border-t border-paper/25 pt-4 text-paper md:grid-cols-4"
+          className="mt-6 grid grid-cols-2 items-end gap-4 border-t border-paper/40 pt-4 text-paper md:grid-cols-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: intro ? 0 : 1 }}
           transition={{ delay: 0.9, duration: 1 }}
         >
-          <p className="eyebrow col-span-2 max-w-md leading-relaxed text-paper/80 md:col-span-1">
+          <p className="eyebrow col-span-2 max-w-md leading-relaxed text-paper md:col-span-1">
             Paintings, digital images, drawings and light — made by hand, by improvisation, in Kolkata.
           </p>
-          <div className="eyebrow hidden text-paper/70 md:block">
-            <span className="text-paper/40">Now showing</span>
+          <div className="eyebrow hidden text-paper md:block">
+            <span className="text-paper/65">Now showing</span>
             <br />
             <AnimatePresence mode="wait">
               <motion.span key={art.id} initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -8 }} className="inline-flex items-center gap-2">
@@ -126,12 +127,12 @@ export default function Hero() {
               </motion.span>
             </AnimatePresence>
           </div>
-          <div className="eyebrow hidden text-paper/70 md:block">
-            <span className="text-paper/40">Interact</span>
+          <div className="eyebrow hidden text-paper md:block">
+            <span className="text-paper/65">Interact</span>
             <br />
             Move to smear · Click for next
           </div>
-          <div className="eyebrow flex items-center justify-end gap-3 text-paper/70">
+          <div className="eyebrow flex items-center justify-end gap-3 text-paper">
             <span>{String(idx + 1).padStart(2, "0")} / {String(slides.length).padStart(2, "0")}</span>
             <span className="relative h-10 w-px overflow-hidden bg-paper/20">
               <span className="absolute inset-x-0 top-0 h-1/2 animate-[scrollcue_1.8s_var(--ease-io)_infinite] bg-paper" />

@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import Link from "next/link";
 import { motion, useScroll, useSpring, useTransform, useVelocity } from "motion/react";
 import { useEffect, useRef, useState } from "react";
@@ -63,11 +63,9 @@ export default function FlowFrenzy() {
             >
               <Link href={`/work/paintings?w=${a.id}`} data-cursor="View" className="block h-full w-full">
               <motion.div data-art className="relative h-full w-full overflow-hidden" style={{ skewX: skew }}>
-                <Image
-                  src={a.src}
+                <ArtImg art={a} size="m"
                   alt={`Painting, plate ${plate(a)}`}
                   fill
-                  sizes="40vw"
                   className="object-cover transition-transform duration-[1.4s] ease-[var(--ease-out)] group-hover:scale-110"
                 />
               </motion.div>

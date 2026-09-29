@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import { AnimatePresence, motion } from "motion/react";
 import { useSearchParams } from "next/navigation";
 import { useState } from "react";
@@ -57,7 +57,7 @@ export default function ContactForm() {
                   {picked.map(({ art, ed }) => (
                     <li key={art.id} className="flex items-center gap-4">
                       <div data-art className="relative h-14 w-14 shrink-0 overflow-hidden">
-                        <Image src={art.src} alt="" fill sizes="56px" className="object-cover" />
+                        <ArtImg art={art} size="s" fill className="object-cover" />
                       </div>
                       <div>
                         <p className="serif text-xl leading-none">{mediumOf(art.medium).title} — Plate {plate(art)}</p>

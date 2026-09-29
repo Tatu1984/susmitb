@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import { useMotionValueEvent, useScroll, useTransform, motion } from "motion/react";
 import { useRef } from "react";
 import { byId } from "@/lib/art";
@@ -43,7 +43,7 @@ export default function ChaosToOrder() {
           const a = byId(f.id)!;
           return (
             <Floater key={f.id} progress={scrollYProgress} speed={f.s} style={{ left: f.x, top: f.y, width: f.w }} i={i}>
-              <Image src={a.src} alt="" width={a.width} height={a.height} sizes="220px" className="h-auto w-full shadow-[0_30px_60px_-20px_rgba(0,0,0,.35)]" />
+              <ArtImg art={a} size="s" className="h-auto w-full shadow-[0_30px_60px_-20px_rgba(0,0,0,.35)]" eager />
             </Floater>
           );
         })}

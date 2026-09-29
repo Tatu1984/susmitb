@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useRef, useState } from "react";
@@ -140,7 +140,7 @@ export default function Lightbox({
                     else if (info.offset.x > 80) onIndex((index! - 1 + items.length) % items.length);
                   }}
                 >
-                  <Image src={a.src} alt={`${mediumOf(a.medium).title}, plate ${plate(a)}`} fill sizes="80vw" className="object-contain drop-shadow-[0_40px_80px_rgba(0,0,0,.5)]" priority />
+                  <ArtImg art={a} size="l" alt={`${mediumOf(a.medium).title}, plate ${plate(a)}`} fill className="object-contain drop-shadow-[0_40px_80px_rgba(0,0,0,.5)]" eager />
                 </motion.div>
               </AnimatePresence>
               <button onClick={() => onIndex((index! - 1 + items.length) % items.length)} className="absolute inset-y-0 left-0 w-1/4" data-cursor="Prev" aria-label="Previous" />
@@ -157,7 +157,7 @@ export default function Lightbox({
                 className={`relative h-full shrink-0 overflow-hidden transition-all duration-500 ${i === index ? "opacity-100 ring-1 ring-paper" : "opacity-35 hover:opacity-80"}`}
                 style={{ aspectRatio: `${it.width}/${it.height}` }}
               >
-                <Image src={it.src} alt="" fill sizes="80px" className="object-cover" />
+                <ArtImg art={it} size="s" fill className="object-cover" />
               </button>
             ))}
           </div>

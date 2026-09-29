@@ -2,7 +2,7 @@
  {
   "id": "paintings-p26-30",
   "medium": "paintings",
-  "src": "/art/paintings/p26-30.jpg",
+  "file": "paintings/p26-30.jpg",
   "width": 804,
   "height": 1080,
   "color": "#c89838",
@@ -11,7 +11,7 @@
  {
   "id": "paintings-p26-29",
   "medium": "paintings",
-  "src": "/art/paintings/p26-29.jpg",
+  "file": "paintings/p26-29.jpg",
   "width": 804,
   "height": 1080,
   "color": "#e8e8e8",
@@ -20,7 +20,7 @@
  {
   "id": "paintings-p26-28",
   "medium": "paintings",
-  "src": "/art/paintings/p26-28.jpg",
+  "file": "paintings/p26-28.jpg",
   "width": 804,
   "height": 1080,
   "color": "#086898",
@@ -29,7 +29,7 @@
  {
   "id": "paintings-p26-27",
   "medium": "paintings",
-  "src": "/art/paintings/p26-27.jpg",
+  "file": "paintings/p26-27.jpg",
   "width": 804,
   "height": 1080,
   "color": "#f8e818",
@@ -38,7 +38,7 @@
  {
   "id": "paintings-p26-26",
   "medium": "paintings",
-  "src": "/art/paintings/p26-26.jpg",
+  "file": "paintings/p26-26.jpg",
   "width": 804,
   "height": 1080,
   "color": "#d8d8d8",
@@ -47,7 +47,7 @@
  {
   "id": "paintings-p26-25",
   "medium": "paintings",
-  "src": "/art/paintings/p26-25.jpg",
+  "file": "paintings/p26-25.jpg",
   "width": 804,
   "height": 1080,
   "color": "#f8f8f8",
@@ -56,7 +56,7 @@
  {
   "id": "paintings-p26-24",
   "medium": "paintings",
-  "src": "/art/paintings/p26-24.jpg",
+  "file": "paintings/p26-24.jpg",
   "width": 804,
   "height": 1080,
   "color": "#e8e8e8",
@@ -65,7 +65,7 @@
  {
   "id": "paintings-p26-23",
   "medium": "paintings",
-  "src": "/art/paintings/p26-23.jpg",
+  "file": "paintings/p26-23.jpg",
   "width": 804,
   "height": 1080,
   "color": "#d89808",
@@ -74,7 +74,7 @@
  {
   "id": "paintings-p26-22",
   "medium": "paintings",
-  "src": "/art/paintings/p26-22.jpg",
+  "file": "paintings/p26-22.jpg",
   "width": 804,
   "height": 1080,
   "color": "#c84828",
@@ -83,7 +83,7 @@
  {
   "id": "paintings-p26-21",
   "medium": "paintings",
-  "src": "/art/paintings/p26-21.jpg",
+  "file": "paintings/p26-21.jpg",
   "width": 804,
   "height": 1080,
   "color": "#d88838",
@@ -92,7 +92,7 @@
  {
   "id": "paintings-p26-20",
   "medium": "paintings",
-  "src": "/art/paintings/p26-20.jpg",
+  "file": "paintings/p26-20.jpg",
   "width": 804,
   "height": 1080,
   "color": "#181818",
@@ -101,7 +101,7 @@
  {
   "id": "paintings-p26-19",
   "medium": "paintings",
-  "src": "/art/paintings/p26-19.jpg",
+  "file": "paintings/p26-19.jpg",
   "width": 804,
   "height": 1080,
   "color": "#788898",
@@ -110,7 +110,7 @@
  {
   "id": "paintings-p26-18",
   "medium": "paintings",
-  "src": "/art/paintings/p26-18.jpg",
+  "file": "paintings/p26-18.jpg",
   "width": 804,
   "height": 1080,
   "color": "#e8e8e8",
@@ -119,7 +119,7 @@
  {
   "id": "paintings-p26-17",
   "medium": "paintings",
-  "src": "/art/paintings/p26-17.jpg",
+  "file": "paintings/p26-17.jpg",
   "width": 804,
   "height": 1080,
   "color": "#f85838",
@@ -128,7 +128,7 @@
  {
   "id": "paintings-p26-16",
   "medium": "paintings",
-  "src": "/art/paintings/p26-16.jpg",
+  "file": "paintings/p26-16.jpg",
   "width": 804,
   "height": 1080,
   "color": "#c89828",
@@ -137,7 +137,7 @@
  {
   "id": "paintings-p26-15",
   "medium": "paintings",
-  "src": "/art/paintings/p26-15.jpg",
+  "file": "paintings/p26-15.jpg",
   "width": 804,
   "height": 1080,
   "color": "#e8d8e8",
@@ -146,7 +146,7 @@
  {
   "id": "paintings-p26-14",
   "medium": "paintings",
-  "src": "/art/paintings/p26-14.jpg",
+  "file": "paintings/p26-14.jpg",
   "width": 804,
   "height": 1080,
   "color": "#6888a8",
@@ -155,7 +155,7 @@
  {
   "id": "paintings-p26-13",
   "medium": "paintings",
-  "src": "/art/paintings/p26-13.jpg",
+  "file": "paintings/p26-13.jpg",
   "width": 804,
   "height": 1080,
   "color": "#181818",
@@ -164,7 +164,7 @@
  {
   "id": "paintings-p26-12",
   "medium": "paintings",
-  "src": "/art/paintings/p26-12.jpg",
+  "file": "paintings/p26-12.jpg",
   "width": 804,
   "height": 1080,
   "color": "#c84828",
@@ -173,7 +173,7 @@
  {
   "id": "paintings-p26-11",
   "medium": "paintings",
-  "src": "/art/paintings/p26-11.jpg",
+  "file": "paintings/p26-11.jpg",
   "width": 804,
   "height": 1080,
   "color": "#f89808",
@@ -182,7 +182,7 @@
  {
   "id": "paintings-p26-10",
   "medium": "paintings",
-  "src": "/art/paintings/p26-10.jpg",
+  "file": "paintings/p26-10.jpg",
   "width": 804,
   "height": 1080,
   "color": "#5868b8",
@@ -191,7 +191,7 @@
  {
   "id": "paintings-p26-09",
   "medium": "paintings",
-  "src": "/art/paintings/p26-09.jpg",
+  "file": "paintings/p26-09.jpg",
   "width": 804,
   "height": 1080,
   "color": "#e8e8e8",
@@ -200,7 +200,7 @@
  {
   "id": "paintings-p26-08",
   "medium": "paintings",
-  "src": "/art/paintings/p26-08.jpg",
+  "file": "paintings/p26-08.jpg",
   "width": 804,
   "height": 1080,
   "color": "#688878",
@@ -209,7 +209,7 @@
  {
   "id": "paintings-p26-07",
   "medium": "paintings",
-  "src": "/art/paintings/p26-07.jpg",
+  "file": "paintings/p26-07.jpg",
   "width": 804,
   "height": 1080,
   "color": "#688898",
@@ -218,7 +218,7 @@
  {
   "id": "paintings-p26-06",
   "medium": "paintings",
-  "src": "/art/paintings/p26-06.jpg",
+  "file": "paintings/p26-06.jpg",
   "width": 804,
   "height": 1080,
   "color": "#e8b868",
@@ -227,7 +227,7 @@
  {
   "id": "paintings-p26-05",
   "medium": "paintings",
-  "src": "/art/paintings/p26-05.jpg",
+  "file": "paintings/p26-05.jpg",
   "width": 804,
   "height": 1080,
   "color": "#e85848",
@@ -236,7 +236,7 @@
  {
   "id": "paintings-p26-04",
   "medium": "paintings",
-  "src": "/art/paintings/p26-04.jpg",
+  "file": "paintings/p26-04.jpg",
   "width": 804,
   "height": 1080,
   "color": "#389848",
@@ -245,7 +245,7 @@
  {
   "id": "paintings-p26-03",
   "medium": "paintings",
-  "src": "/art/paintings/p26-03.jpg",
+  "file": "paintings/p26-03.jpg",
   "width": 804,
   "height": 1080,
   "color": "#5868c8",
@@ -254,7 +254,7 @@
  {
   "id": "paintings-p26-02",
   "medium": "paintings",
-  "src": "/art/paintings/p26-02.jpg",
+  "file": "paintings/p26-02.jpg",
   "width": 804,
   "height": 1080,
   "color": "#282828",
@@ -263,7 +263,7 @@
  {
   "id": "paintings-p26-01",
   "medium": "paintings",
-  "src": "/art/paintings/p26-01.jpg",
+  "file": "paintings/p26-01.jpg",
   "width": 804,
   "height": 1080,
   "color": "#f84828",
@@ -272,7 +272,7 @@
  {
   "id": "paintings-p19-27",
   "medium": "paintings",
-  "src": "/art/paintings/p19-27.jpg",
+  "file": "paintings/p19-27.jpg",
   "width": 802,
   "height": 1080,
   "color": "#587848",
@@ -281,7 +281,7 @@
  {
   "id": "paintings-p19-26",
   "medium": "paintings",
-  "src": "/art/paintings/p19-26.jpg",
+  "file": "paintings/p19-26.jpg",
   "width": 812,
   "height": 1080,
   "color": "#181818",
@@ -290,7 +290,7 @@
  {
   "id": "paintings-p19-25",
   "medium": "paintings",
-  "src": "/art/paintings/p19-25.jpg",
+  "file": "paintings/p19-25.jpg",
   "width": 817,
   "height": 1080,
   "color": "#f8a818",
@@ -299,7 +299,7 @@
  {
   "id": "paintings-p19-24",
   "medium": "paintings",
-  "src": "/art/paintings/p19-24.jpg",
+  "file": "paintings/p19-24.jpg",
   "width": 818,
   "height": 1080,
   "color": "#181818",
@@ -308,7 +308,7 @@
  {
   "id": "paintings-p19-23",
   "medium": "paintings",
-  "src": "/art/paintings/p19-23.jpg",
+  "file": "paintings/p19-23.jpg",
   "width": 791,
   "height": 1080,
   "color": "#f89808",
@@ -317,7 +317,7 @@
  {
   "id": "paintings-p19-22",
   "medium": "paintings",
-  "src": "/art/paintings/p19-22.jpg",
+  "file": "paintings/p19-22.jpg",
   "width": 807,
   "height": 1080,
   "color": "#282828",
@@ -326,7 +326,7 @@
  {
   "id": "paintings-p19-21",
   "medium": "paintings",
-  "src": "/art/paintings/p19-21.jpg",
+  "file": "paintings/p19-21.jpg",
   "width": 821,
   "height": 1080,
   "color": "#e8b848",
@@ -335,7 +335,7 @@
  {
   "id": "paintings-p19-20",
   "medium": "paintings",
-  "src": "/art/paintings/p19-20.jpg",
+  "file": "paintings/p19-20.jpg",
   "width": 811,
   "height": 1080,
   "color": "#282828",
@@ -344,7 +344,7 @@
  {
   "id": "paintings-p19-19",
   "medium": "paintings",
-  "src": "/art/paintings/p19-19.jpg",
+  "file": "paintings/p19-19.jpg",
   "width": 803,
   "height": 1080,
   "color": "#d83838",
@@ -353,7 +353,7 @@
  {
   "id": "paintings-p19-18",
   "medium": "paintings",
-  "src": "/art/paintings/p19-18.jpg",
+  "file": "paintings/p19-18.jpg",
   "width": 817,
   "height": 1080,
   "color": "#989848",
@@ -362,7 +362,7 @@
  {
   "id": "paintings-p19-17",
   "medium": "paintings",
-  "src": "/art/paintings/p19-17.jpg",
+  "file": "paintings/p19-17.jpg",
   "width": 801,
   "height": 1080,
   "color": "#4858b8",
@@ -371,7 +371,7 @@
  {
   "id": "paintings-p19-16",
   "medium": "paintings",
-  "src": "/art/paintings/p19-16.jpg",
+  "file": "paintings/p19-16.jpg",
   "width": 825,
   "height": 1080,
   "color": "#f89818",
@@ -380,7 +380,7 @@
  {
   "id": "paintings-p19-15",
   "medium": "paintings",
-  "src": "/art/paintings/p19-15.jpg",
+  "file": "paintings/p19-15.jpg",
   "width": 804,
   "height": 1080,
   "color": "#f84828",
@@ -389,7 +389,7 @@
  {
   "id": "paintings-p19-14",
   "medium": "paintings",
-  "src": "/art/paintings/p19-14.jpg",
+  "file": "paintings/p19-14.jpg",
   "width": 804,
   "height": 1080,
   "color": "#e8e8e8",
@@ -398,7 +398,7 @@
  {
   "id": "paintings-p19-13",
   "medium": "paintings",
-  "src": "/art/paintings/p19-13.jpg",
+  "file": "paintings/p19-13.jpg",
   "width": 841,
   "height": 1080,
   "color": "#788898",
@@ -407,7 +407,7 @@
  {
   "id": "paintings-p19-12",
   "medium": "paintings",
-  "src": "/art/paintings/p19-12.jpg",
+  "file": "paintings/p19-12.jpg",
   "width": 811,
   "height": 1080,
   "color": "#f89808",
@@ -416,7 +416,7 @@
  {
   "id": "paintings-p19-11",
   "medium": "paintings",
-  "src": "/art/paintings/p19-11.jpg",
+  "file": "paintings/p19-11.jpg",
   "width": 812,
   "height": 1080,
   "color": "#181818",
@@ -425,7 +425,7 @@
  {
   "id": "paintings-p19-10",
   "medium": "paintings",
-  "src": "/art/paintings/p19-10.jpg",
+  "file": "paintings/p19-10.jpg",
   "width": 818,
   "height": 1080,
   "color": "#382828",
@@ -434,7 +434,7 @@
  {
   "id": "paintings-p19-09",
   "medium": "paintings",
-  "src": "/art/paintings/p19-09.jpg",
+  "file": "paintings/p19-09.jpg",
   "width": 791,
   "height": 1080,
   "color": "#282828",
@@ -443,7 +443,7 @@
  {
   "id": "paintings-p19-08",
   "medium": "paintings",
-  "src": "/art/paintings/p19-08.jpg",
+  "file": "paintings/p19-08.jpg",
   "width": 820,
   "height": 1080,
   "color": "#5868b8",
@@ -452,7 +452,7 @@
  {
   "id": "paintings-p19-07",
   "medium": "paintings",
-  "src": "/art/paintings/p19-07.jpg",
+  "file": "paintings/p19-07.jpg",
   "width": 812,
   "height": 1080,
   "color": "#f84828",
@@ -461,7 +461,7 @@
  {
   "id": "paintings-p19-06",
   "medium": "paintings",
-  "src": "/art/paintings/p19-06.jpg",
+  "file": "paintings/p19-06.jpg",
   "width": 809,
   "height": 1080,
   "color": "#f8d858",
@@ -470,7 +470,7 @@
  {
   "id": "paintings-p19-05",
   "medium": "paintings",
-  "src": "/art/paintings/p19-05.jpg",
+  "file": "paintings/p19-05.jpg",
   "width": 819,
   "height": 1080,
   "color": "#181818",
@@ -479,7 +479,7 @@
  {
   "id": "paintings-p19-04",
   "medium": "paintings",
-  "src": "/art/paintings/p19-04.jpg",
+  "file": "paintings/p19-04.jpg",
   "width": 799,
   "height": 1080,
   "color": "#f89808",
@@ -488,7 +488,7 @@
  {
   "id": "paintings-p19-03",
   "medium": "paintings",
-  "src": "/art/paintings/p19-03.jpg",
+  "file": "paintings/p19-03.jpg",
   "width": 815,
   "height": 1080,
   "color": "#f83828",
@@ -497,7 +497,7 @@
  {
   "id": "paintings-p19-02",
   "medium": "paintings",
-  "src": "/art/paintings/p19-02.jpg",
+  "file": "paintings/p19-02.jpg",
   "width": 814,
   "height": 1080,
   "color": "#383838",
@@ -506,7 +506,7 @@
  {
   "id": "paintings-p19-01",
   "medium": "paintings",
-  "src": "/art/paintings/p19-01.jpg",
+  "file": "paintings/p19-01.jpg",
   "width": 808,
   "height": 1080,
   "color": "#5868c8",
@@ -515,7 +515,7 @@
  {
   "id": "digital-g-38",
   "medium": "digital",
-  "src": "/art/digital/g-38.jpg",
+  "file": "digital/g-38.jpg",
   "width": 1911,
   "height": 1080,
   "color": "#080838",
@@ -524,7 +524,7 @@
  {
   "id": "digital-g-37",
   "medium": "digital",
-  "src": "/art/digital/g-37.jpg",
+  "file": "digital/g-37.jpg",
   "width": 1911,
   "height": 1080,
   "color": "#080838",
@@ -533,7 +533,7 @@
  {
   "id": "digital-g-36",
   "medium": "digital",
-  "src": "/art/digital/g-36.jpg",
+  "file": "digital/g-36.jpg",
   "width": 1911,
   "height": 1080,
   "color": "#080838",
@@ -542,7 +542,7 @@
  {
   "id": "digital-g-35",
   "medium": "digital",
-  "src": "/art/digital/g-35.jpg",
+  "file": "digital/g-35.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#280838",
@@ -551,7 +551,7 @@
  {
   "id": "digital-g-34",
   "medium": "digital",
-  "src": "/art/digital/g-34.jpg",
+  "file": "digital/g-34.jpg",
   "width": 1946,
   "height": 1100,
   "color": "#080838",
@@ -560,7 +560,7 @@
  {
   "id": "digital-g-33",
   "medium": "digital",
-  "src": "/art/digital/g-33.jpg",
+  "file": "digital/g-33.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#082818",
@@ -569,7 +569,7 @@
  {
   "id": "digital-g-32",
   "medium": "digital",
-  "src": "/art/digital/g-32.jpg",
+  "file": "digital/g-32.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#082818",
@@ -578,7 +578,7 @@
  {
   "id": "digital-g-31",
   "medium": "digital",
-  "src": "/art/digital/g-31.jpg",
+  "file": "digital/g-31.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#082818",
@@ -587,7 +587,7 @@
  {
   "id": "digital-g-30",
   "medium": "digital",
-  "src": "/art/digital/g-30.jpg",
+  "file": "digital/g-30.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#280838",
@@ -596,7 +596,7 @@
  {
   "id": "digital-g-29",
   "medium": "digital",
-  "src": "/art/digital/g-29.jpg",
+  "file": "digital/g-29.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#280838",
@@ -605,7 +605,7 @@
  {
   "id": "digital-g-28",
   "medium": "digital",
-  "src": "/art/digital/g-28.jpg",
+  "file": "digital/g-28.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#280838",
@@ -614,7 +614,7 @@
  {
   "id": "digital-g-27",
   "medium": "digital",
-  "src": "/art/digital/g-27.jpg",
+  "file": "digital/g-27.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#082818",
@@ -623,7 +623,7 @@
  {
   "id": "digital-g-26",
   "medium": "digital",
-  "src": "/art/digital/g-26.jpg",
+  "file": "digital/g-26.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#082818",
@@ -632,7 +632,7 @@
  {
   "id": "digital-g-25",
   "medium": "digital",
-  "src": "/art/digital/g-25.jpg",
+  "file": "digital/g-25.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#082818",
@@ -641,7 +641,7 @@
  {
   "id": "digital-g-24",
   "medium": "digital",
-  "src": "/art/digital/g-24.jpg",
+  "file": "digital/g-24.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#280818",
@@ -650,7 +650,7 @@
  {
   "id": "digital-g-23",
   "medium": "digital",
-  "src": "/art/digital/g-23.jpg",
+  "file": "digital/g-23.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#280838",
@@ -659,7 +659,7 @@
  {
   "id": "digital-g-22",
   "medium": "digital",
-  "src": "/art/digital/g-22.jpg",
+  "file": "digital/g-22.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#280818",
@@ -668,7 +668,7 @@
  {
   "id": "digital-g-21",
   "medium": "digital",
-  "src": "/art/digital/g-21.jpg",
+  "file": "digital/g-21.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#080848",
@@ -677,7 +677,7 @@
  {
   "id": "digital-g-20",
   "medium": "digital",
-  "src": "/art/digital/g-20.jpg",
+  "file": "digital/g-20.jpg",
   "width": 1911,
   "height": 1080,
   "color": "#080838",
@@ -686,7 +686,7 @@
  {
   "id": "digital-g-19",
   "medium": "digital",
-  "src": "/art/digital/g-19.jpg",
+  "file": "digital/g-19.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#381848",
@@ -695,7 +695,7 @@
  {
   "id": "digital-g-18",
   "medium": "digital",
-  "src": "/art/digital/g-18.jpg",
+  "file": "digital/g-18.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#280818",
@@ -704,7 +704,7 @@
  {
   "id": "digital-g-17",
   "medium": "digital",
-  "src": "/art/digital/g-17.jpg",
+  "file": "digital/g-17.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#280818",
@@ -713,7 +713,7 @@
  {
   "id": "digital-g-16",
   "medium": "digital",
-  "src": "/art/digital/g-16.jpg",
+  "file": "digital/g-16.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#280818",
@@ -722,7 +722,7 @@
  {
   "id": "digital-g-15",
   "medium": "digital",
-  "src": "/art/digital/g-15.jpg",
+  "file": "digital/g-15.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#f88808",
@@ -731,7 +731,7 @@
  {
   "id": "digital-g-14",
   "medium": "digital",
-  "src": "/art/digital/g-14.jpg",
+  "file": "digital/g-14.jpg",
   "width": 1911,
   "height": 1080,
   "color": "#080838",
@@ -740,7 +740,7 @@
  {
   "id": "digital-g-13",
   "medium": "digital",
-  "src": "/art/digital/g-13.jpg",
+  "file": "digital/g-13.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#f89808",
@@ -749,7 +749,7 @@
  {
   "id": "digital-g-12",
   "medium": "digital",
-  "src": "/art/digital/g-12.jpg",
+  "file": "digital/g-12.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#080838",
@@ -758,7 +758,7 @@
  {
   "id": "digital-g-11",
   "medium": "digital",
-  "src": "/art/digital/g-11.jpg",
+  "file": "digital/g-11.jpg",
   "width": 764,
   "height": 1080,
   "color": "#482898",
@@ -767,7 +767,7 @@
  {
   "id": "digital-g-10",
   "medium": "digital",
-  "src": "/art/digital/g-10.jpg",
+  "file": "digital/g-10.jpg",
   "width": 1080,
   "height": 1080,
   "color": "#484858",
@@ -776,7 +776,7 @@
  {
   "id": "digital-g-09",
   "medium": "digital",
-  "src": "/art/digital/g-09.jpg",
+  "file": "digital/g-09.jpg",
   "width": 764,
   "height": 1080,
   "color": "#b81828",
@@ -785,7 +785,7 @@
  {
   "id": "digital-g-08",
   "medium": "digital",
-  "src": "/art/digital/g-08.jpg",
+  "file": "digital/g-08.jpg",
   "width": 1613,
   "height": 1080,
   "color": "#c8c8d8",
@@ -794,7 +794,7 @@
  {
   "id": "digital-g-07",
   "medium": "digital",
-  "src": "/art/digital/g-07.jpg",
+  "file": "digital/g-07.jpg",
   "width": 764,
   "height": 1080,
   "color": "#b81818",
@@ -803,7 +803,7 @@
  {
   "id": "digital-g-06",
   "medium": "digital",
-  "src": "/art/digital/g-06.jpg",
+  "file": "digital/g-06.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -812,7 +812,7 @@
  {
   "id": "digital-g-05",
   "medium": "digital",
-  "src": "/art/digital/g-05.jpg",
+  "file": "digital/g-05.jpg",
   "width": 834,
   "height": 1080,
   "color": "#f8f8f8",
@@ -821,7 +821,7 @@
  {
   "id": "digital-g-04",
   "medium": "digital",
-  "src": "/art/digital/g-04.jpg",
+  "file": "digital/g-04.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -830,7 +830,7 @@
  {
   "id": "digital-g-03",
   "medium": "digital",
-  "src": "/art/digital/g-03.jpg",
+  "file": "digital/g-03.jpg",
   "width": 764,
   "height": 1080,
   "color": "#080808",
@@ -839,7 +839,7 @@
  {
   "id": "digital-g-02",
   "medium": "digital",
-  "src": "/art/digital/g-02.jpg",
+  "file": "digital/g-02.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f89818",
@@ -848,7 +848,7 @@
  {
   "id": "digital-g-01",
   "medium": "digital",
-  "src": "/art/digital/g-01.jpg",
+  "file": "digital/g-01.jpg",
   "width": 764,
   "height": 1080,
   "color": "#380828",
@@ -857,7 +857,7 @@
  {
   "id": "drawings-d-39",
   "medium": "drawings",
-  "src": "/art/drawings/d-39.jpg",
+  "file": "drawings/d-39.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -866,7 +866,7 @@
  {
   "id": "drawings-d-38",
   "medium": "drawings",
-  "src": "/art/drawings/d-38.jpg",
+  "file": "drawings/d-38.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -875,7 +875,7 @@
  {
   "id": "drawings-d-37",
   "medium": "drawings",
-  "src": "/art/drawings/d-37.jpg",
+  "file": "drawings/d-37.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -884,7 +884,7 @@
  {
   "id": "drawings-d-36",
   "medium": "drawings",
-  "src": "/art/drawings/d-36.jpg",
+  "file": "drawings/d-36.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -893,7 +893,7 @@
  {
   "id": "drawings-d-35",
   "medium": "drawings",
-  "src": "/art/drawings/d-35.jpg",
+  "file": "drawings/d-35.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -902,7 +902,7 @@
  {
   "id": "drawings-d-34",
   "medium": "drawings",
-  "src": "/art/drawings/d-34.jpg",
+  "file": "drawings/d-34.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -911,7 +911,7 @@
  {
   "id": "drawings-d-33",
   "medium": "drawings",
-  "src": "/art/drawings/d-33.jpg",
+  "file": "drawings/d-33.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -920,7 +920,7 @@
  {
   "id": "drawings-d-32",
   "medium": "drawings",
-  "src": "/art/drawings/d-32.jpg",
+  "file": "drawings/d-32.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -929,7 +929,7 @@
  {
   "id": "drawings-d-31",
   "medium": "drawings",
-  "src": "/art/drawings/d-31.jpg",
+  "file": "drawings/d-31.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -938,7 +938,7 @@
  {
   "id": "drawings-d-30",
   "medium": "drawings",
-  "src": "/art/drawings/d-30.jpg",
+  "file": "drawings/d-30.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -947,7 +947,7 @@
  {
   "id": "drawings-d-29",
   "medium": "drawings",
-  "src": "/art/drawings/d-29.jpg",
+  "file": "drawings/d-29.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -956,7 +956,7 @@
  {
   "id": "drawings-d-28",
   "medium": "drawings",
-  "src": "/art/drawings/d-28.jpg",
+  "file": "drawings/d-28.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -965,7 +965,7 @@
  {
   "id": "drawings-d-27",
   "medium": "drawings",
-  "src": "/art/drawings/d-27.jpg",
+  "file": "drawings/d-27.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -974,7 +974,7 @@
  {
   "id": "drawings-d-26",
   "medium": "drawings",
-  "src": "/art/drawings/d-26.jpg",
+  "file": "drawings/d-26.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -983,7 +983,7 @@
  {
   "id": "drawings-d-25",
   "medium": "drawings",
-  "src": "/art/drawings/d-25.jpg",
+  "file": "drawings/d-25.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -992,7 +992,7 @@
  {
   "id": "drawings-d-24",
   "medium": "drawings",
-  "src": "/art/drawings/d-24.jpg",
+  "file": "drawings/d-24.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1001,7 +1001,7 @@
  {
   "id": "drawings-d-23",
   "medium": "drawings",
-  "src": "/art/drawings/d-23.jpg",
+  "file": "drawings/d-23.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1010,7 +1010,7 @@
  {
   "id": "drawings-d-22",
   "medium": "drawings",
-  "src": "/art/drawings/d-22.jpg",
+  "file": "drawings/d-22.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1019,7 +1019,7 @@
  {
   "id": "drawings-d-21",
   "medium": "drawings",
-  "src": "/art/drawings/d-21.jpg",
+  "file": "drawings/d-21.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1028,7 +1028,7 @@
  {
   "id": "drawings-d-20",
   "medium": "drawings",
-  "src": "/art/drawings/d-20.jpg",
+  "file": "drawings/d-20.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1037,7 +1037,7 @@
  {
   "id": "drawings-d-19",
   "medium": "drawings",
-  "src": "/art/drawings/d-19.jpg",
+  "file": "drawings/d-19.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1046,7 +1046,7 @@
  {
   "id": "drawings-d-18",
   "medium": "drawings",
-  "src": "/art/drawings/d-18.jpg",
+  "file": "drawings/d-18.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1055,7 +1055,7 @@
  {
   "id": "drawings-d-17",
   "medium": "drawings",
-  "src": "/art/drawings/d-17.jpg",
+  "file": "drawings/d-17.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1064,7 +1064,7 @@
  {
   "id": "drawings-d-16",
   "medium": "drawings",
-  "src": "/art/drawings/d-16.jpg",
+  "file": "drawings/d-16.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1073,7 +1073,7 @@
  {
   "id": "drawings-d-15",
   "medium": "drawings",
-  "src": "/art/drawings/d-15.jpg",
+  "file": "drawings/d-15.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1082,7 +1082,7 @@
  {
   "id": "drawings-d-14",
   "medium": "drawings",
-  "src": "/art/drawings/d-14.jpg",
+  "file": "drawings/d-14.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1091,7 +1091,7 @@
  {
   "id": "drawings-d-13",
   "medium": "drawings",
-  "src": "/art/drawings/d-13.jpg",
+  "file": "drawings/d-13.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1100,7 +1100,7 @@
  {
   "id": "drawings-d-12",
   "medium": "drawings",
-  "src": "/art/drawings/d-12.jpg",
+  "file": "drawings/d-12.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1109,7 +1109,7 @@
  {
   "id": "drawings-d-11",
   "medium": "drawings",
-  "src": "/art/drawings/d-11.jpg",
+  "file": "drawings/d-11.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1118,7 +1118,7 @@
  {
   "id": "drawings-d-10",
   "medium": "drawings",
-  "src": "/art/drawings/d-10.jpg",
+  "file": "drawings/d-10.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1127,7 +1127,7 @@
  {
   "id": "drawings-d-09",
   "medium": "drawings",
-  "src": "/art/drawings/d-09.jpg",
+  "file": "drawings/d-09.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1136,7 +1136,7 @@
  {
   "id": "drawings-d-08",
   "medium": "drawings",
-  "src": "/art/drawings/d-08.jpg",
+  "file": "drawings/d-08.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1145,7 +1145,7 @@
  {
   "id": "drawings-d-07",
   "medium": "drawings",
-  "src": "/art/drawings/d-07.jpg",
+  "file": "drawings/d-07.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1154,7 +1154,7 @@
  {
   "id": "drawings-d-06",
   "medium": "drawings",
-  "src": "/art/drawings/d-06.jpg",
+  "file": "drawings/d-06.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1163,7 +1163,7 @@
  {
   "id": "drawings-d-05",
   "medium": "drawings",
-  "src": "/art/drawings/d-05.jpg",
+  "file": "drawings/d-05.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1172,7 +1172,7 @@
  {
   "id": "drawings-d-04",
   "medium": "drawings",
-  "src": "/art/drawings/d-04.jpg",
+  "file": "drawings/d-04.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1181,7 +1181,7 @@
  {
   "id": "drawings-d-03",
   "medium": "drawings",
-  "src": "/art/drawings/d-03.jpg",
+  "file": "drawings/d-03.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1190,7 +1190,7 @@
  {
   "id": "drawings-d-02",
   "medium": "drawings",
-  "src": "/art/drawings/d-02.jpg",
+  "file": "drawings/d-02.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1199,7 +1199,7 @@
  {
   "id": "drawings-d-01",
   "medium": "drawings",
-  "src": "/art/drawings/d-01.jpg",
+  "file": "drawings/d-01.jpg",
   "width": 764,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1208,7 +1208,7 @@
  {
   "id": "brush-ink-bi-23",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-23.jpg",
+  "file": "brush-ink/bi-23.jpg",
   "width": 775,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1217,7 +1217,7 @@
  {
   "id": "brush-ink-bi-22",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-22.jpg",
+  "file": "brush-ink/bi-22.jpg",
   "width": 771,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1226,7 +1226,7 @@
  {
   "id": "brush-ink-bi-21",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-21.jpg",
+  "file": "brush-ink/bi-21.jpg",
   "width": 774,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1235,7 +1235,7 @@
  {
   "id": "brush-ink-bi-20",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-20.jpg",
+  "file": "brush-ink/bi-20.jpg",
   "width": 768,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1244,7 +1244,7 @@
  {
   "id": "brush-ink-bi-19",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-19.jpg",
+  "file": "brush-ink/bi-19.jpg",
   "width": 774,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1253,7 +1253,7 @@
  {
   "id": "brush-ink-bi-18",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-18.jpg",
+  "file": "brush-ink/bi-18.jpg",
   "width": 770,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1262,7 +1262,7 @@
  {
   "id": "brush-ink-bi-17",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-17.jpg",
+  "file": "brush-ink/bi-17.jpg",
   "width": 775,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1271,7 +1271,7 @@
  {
   "id": "brush-ink-bi-16",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-16.jpg",
+  "file": "brush-ink/bi-16.jpg",
   "width": 770,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1280,7 +1280,7 @@
  {
   "id": "brush-ink-bi-15",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-15.jpg",
+  "file": "brush-ink/bi-15.jpg",
   "width": 771,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1289,7 +1289,7 @@
  {
   "id": "brush-ink-bi-14",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-14.jpg",
+  "file": "brush-ink/bi-14.jpg",
   "width": 769,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1298,7 +1298,7 @@
  {
   "id": "brush-ink-bi-13",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-13.jpg",
+  "file": "brush-ink/bi-13.jpg",
   "width": 771,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1307,7 +1307,7 @@
  {
   "id": "brush-ink-bi-12",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-12.jpg",
+  "file": "brush-ink/bi-12.jpg",
   "width": 771,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1316,7 +1316,7 @@
  {
   "id": "brush-ink-bi-11",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-11.jpg",
+  "file": "brush-ink/bi-11.jpg",
   "width": 774,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1325,7 +1325,7 @@
  {
   "id": "brush-ink-bi-10",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-10.jpg",
+  "file": "brush-ink/bi-10.jpg",
   "width": 770,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1334,7 +1334,7 @@
  {
   "id": "brush-ink-bi-09",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-09.jpg",
+  "file": "brush-ink/bi-09.jpg",
   "width": 768,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1343,7 +1343,7 @@
  {
   "id": "brush-ink-bi-08",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-08.jpg",
+  "file": "brush-ink/bi-08.jpg",
   "width": 775,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1352,7 +1352,7 @@
  {
   "id": "brush-ink-bi-07",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-07.jpg",
+  "file": "brush-ink/bi-07.jpg",
   "width": 775,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1361,7 +1361,7 @@
  {
   "id": "brush-ink-bi-06",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-06.jpg",
+  "file": "brush-ink/bi-06.jpg",
   "width": 770,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1370,7 +1370,7 @@
  {
   "id": "brush-ink-bi-05",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-05.jpg",
+  "file": "brush-ink/bi-05.jpg",
   "width": 770,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1379,7 +1379,7 @@
  {
   "id": "brush-ink-bi-04",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-04.jpg",
+  "file": "brush-ink/bi-04.jpg",
   "width": 771,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1388,7 +1388,7 @@
  {
   "id": "brush-ink-bi-03",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-03.jpg",
+  "file": "brush-ink/bi-03.jpg",
   "width": 768,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1397,7 +1397,7 @@
  {
   "id": "brush-ink-bi-02",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-02.jpg",
+  "file": "brush-ink/bi-02.jpg",
   "width": 769,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1406,7 +1406,7 @@
  {
   "id": "brush-ink-bi-01",
   "medium": "brush-ink",
-  "src": "/art/brush-ink/bi-01.jpg",
+  "file": "brush-ink/bi-01.jpg",
   "width": 775,
   "height": 1080,
   "color": "#f8f8f8",
@@ -1415,7 +1415,7 @@
  {
   "id": "light-lp-39",
   "medium": "light",
-  "src": "/art/light/lp-39.jpg",
+  "file": "light/lp-39.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#181808",
@@ -1424,7 +1424,7 @@
  {
   "id": "light-lp-38",
   "medium": "light",
-  "src": "/art/light/lp-38.jpg",
+  "file": "light/lp-38.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#080808",
@@ -1433,7 +1433,7 @@
  {
   "id": "light-lp-37",
   "medium": "light",
-  "src": "/art/light/lp-37.jpg",
+  "file": "light/lp-37.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#181808",
@@ -1442,7 +1442,7 @@
  {
   "id": "light-lp-36",
   "medium": "light",
-  "src": "/art/light/lp-36.jpg",
+  "file": "light/lp-36.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#080808",
@@ -1451,7 +1451,7 @@
  {
   "id": "light-lp-35",
   "medium": "light",
-  "src": "/art/light/lp-35.jpg",
+  "file": "light/lp-35.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#383828",
@@ -1460,7 +1460,7 @@
  {
   "id": "light-lp-34",
   "medium": "light",
-  "src": "/art/light/lp-34.jpg",
+  "file": "light/lp-34.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#382818",
@@ -1469,7 +1469,7 @@
  {
   "id": "light-lp-33",
   "medium": "light",
-  "src": "/art/light/lp-33.jpg",
+  "file": "light/lp-33.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#681818",
@@ -1478,7 +1478,7 @@
  {
   "id": "light-lp-32",
   "medium": "light",
-  "src": "/art/light/lp-32.jpg",
+  "file": "light/lp-32.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#281818",
@@ -1487,7 +1487,7 @@
  {
   "id": "light-lp-31",
   "medium": "light",
-  "src": "/art/light/lp-31.jpg",
+  "file": "light/lp-31.jpg",
   "width": 1650,
   "height": 1100,
   "color": "#080808",
@@ -1496,7 +1496,7 @@
  {
   "id": "light-lp-30",
   "medium": "light",
-  "src": "/art/light/lp-30.jpg",
+  "file": "light/lp-30.jpg",
   "width": 1650,
   "height": 1100,
   "color": "#080808",
@@ -1505,7 +1505,7 @@
  {
   "id": "light-lp-29",
   "medium": "light",
-  "src": "/art/light/lp-29.jpg",
+  "file": "light/lp-29.jpg",
   "width": 1650,
   "height": 1100,
   "color": "#080808",
@@ -1514,7 +1514,7 @@
  {
   "id": "light-lp-28",
   "medium": "light",
-  "src": "/art/light/lp-28.jpg",
+  "file": "light/lp-28.jpg",
   "width": 1650,
   "height": 1100,
   "color": "#080808",
@@ -1523,7 +1523,7 @@
  {
   "id": "light-lp-27",
   "medium": "light",
-  "src": "/art/light/lp-27.jpg",
+  "file": "light/lp-27.jpg",
   "width": 1650,
   "height": 1100,
   "color": "#080808",
@@ -1532,7 +1532,7 @@
  {
   "id": "light-lp-26",
   "medium": "light",
-  "src": "/art/light/lp-26.jpg",
+  "file": "light/lp-26.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#181818",
@@ -1541,7 +1541,7 @@
  {
   "id": "light-lp-25",
   "medium": "light",
-  "src": "/art/light/lp-25.jpg",
+  "file": "light/lp-25.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#181818",
@@ -1550,7 +1550,7 @@
  {
   "id": "light-lp-24",
   "medium": "light",
-  "src": "/art/light/lp-24.jpg",
+  "file": "light/lp-24.jpg",
   "width": 720,
   "height": 1080,
   "color": "#181828",
@@ -1559,7 +1559,7 @@
  {
   "id": "light-lp-23",
   "medium": "light",
-  "src": "/art/light/lp-23.jpg",
+  "file": "light/lp-23.jpg",
   "width": 720,
   "height": 1080,
   "color": "#181828",
@@ -1568,7 +1568,7 @@
  {
   "id": "light-lp-22",
   "medium": "light",
-  "src": "/art/light/lp-22.jpg",
+  "file": "light/lp-22.jpg",
   "width": 720,
   "height": 1080,
   "color": "#181828",
@@ -1577,7 +1577,7 @@
  {
   "id": "light-lp-21",
   "medium": "light",
-  "src": "/art/light/lp-21.jpg",
+  "file": "light/lp-21.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#282818",
@@ -1586,7 +1586,7 @@
  {
   "id": "light-lp-20",
   "medium": "light",
-  "src": "/art/light/lp-20.jpg",
+  "file": "light/lp-20.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#181818",
@@ -1595,7 +1595,7 @@
  {
   "id": "light-lp-19",
   "medium": "light",
-  "src": "/art/light/lp-19.jpg",
+  "file": "light/lp-19.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#282818",
@@ -1604,7 +1604,7 @@
  {
   "id": "light-lp-18",
   "medium": "light",
-  "src": "/art/light/lp-18.jpg",
+  "file": "light/lp-18.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#282818",
@@ -1613,7 +1613,7 @@
  {
   "id": "light-lp-17",
   "medium": "light",
-  "src": "/art/light/lp-17.jpg",
+  "file": "light/lp-17.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#282818",
@@ -1622,7 +1622,7 @@
  {
   "id": "light-lp-16",
   "medium": "light",
-  "src": "/art/light/lp-16.jpg",
+  "file": "light/lp-16.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#384818",
@@ -1631,7 +1631,7 @@
  {
   "id": "light-lp-15",
   "medium": "light",
-  "src": "/art/light/lp-15.jpg",
+  "file": "light/lp-15.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#181818",
@@ -1640,7 +1640,7 @@
  {
   "id": "light-lp-14",
   "medium": "light",
-  "src": "/art/light/lp-14.jpg",
+  "file": "light/lp-14.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#181818",
@@ -1649,7 +1649,7 @@
  {
   "id": "light-lp-13",
   "medium": "light",
-  "src": "/art/light/lp-13.jpg",
+  "file": "light/lp-13.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#181818",
@@ -1658,7 +1658,7 @@
  {
   "id": "light-lp-12",
   "medium": "light",
-  "src": "/art/light/lp-12.jpg",
+  "file": "light/lp-12.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#481818",
@@ -1667,7 +1667,7 @@
  {
   "id": "light-lp-11",
   "medium": "light",
-  "src": "/art/light/lp-11.jpg",
+  "file": "light/lp-11.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#481818",
@@ -1676,7 +1676,7 @@
  {
   "id": "light-lp-10",
   "medium": "light",
-  "src": "/art/light/lp-10.jpg",
+  "file": "light/lp-10.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#381818",
@@ -1685,7 +1685,7 @@
  {
   "id": "light-lp-09",
   "medium": "light",
-  "src": "/art/light/lp-09.jpg",
+  "file": "light/lp-09.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#181818",
@@ -1694,7 +1694,7 @@
  {
   "id": "light-lp-08",
   "medium": "light",
-  "src": "/art/light/lp-08.jpg",
+  "file": "light/lp-08.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#282818",
@@ -1703,7 +1703,7 @@
  {
   "id": "light-lp-07",
   "medium": "light",
-  "src": "/art/light/lp-07.jpg",
+  "file": "light/lp-07.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#282818",
@@ -1712,7 +1712,7 @@
  {
   "id": "light-lp-06",
   "medium": "light",
-  "src": "/art/light/lp-06.jpg",
+  "file": "light/lp-06.jpg",
   "width": 1650,
   "height": 1100,
   "color": "#080808",
@@ -1721,7 +1721,7 @@
  {
   "id": "light-lp-05",
   "medium": "light",
-  "src": "/art/light/lp-05.jpg",
+  "file": "light/lp-05.jpg",
   "width": 1650,
   "height": 1100,
   "color": "#080808",
@@ -1730,7 +1730,7 @@
  {
   "id": "light-lp-04",
   "medium": "light",
-  "src": "/art/light/lp-04.jpg",
+  "file": "light/lp-04.jpg",
   "width": 1650,
   "height": 1100,
   "color": "#080808",
@@ -1739,7 +1739,7 @@
  {
   "id": "light-lp-03",
   "medium": "light",
-  "src": "/art/light/lp-03.jpg",
+  "file": "light/lp-03.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#282818",
@@ -1748,7 +1748,7 @@
  {
   "id": "light-lp-02",
   "medium": "light",
-  "src": "/art/light/lp-02.jpg",
+  "file": "light/lp-02.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#282818",
@@ -1757,7 +1757,7 @@
  {
   "id": "light-lp-01",
   "medium": "light",
-  "src": "/art/light/lp-01.jpg",
+  "file": "light/lp-01.jpg",
   "width": 1620,
   "height": 1080,
   "color": "#584828",

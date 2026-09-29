@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import Link from "next/link";
 import { AnimatePresence, motion, useSpring } from "motion/react";
 import { useState } from "react";
@@ -66,7 +66,7 @@ export default function Rooms() {
               exit={{ opacity: 0, scale: 0.6 }}
               transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1], delay: k * 0.04 }}
             >
-              <Image src={a.src} alt="" width={a.width} height={a.height} sizes="240px" className="h-auto w-full shadow-2xl" />
+              <ArtImg art={a} size="s" className="h-auto w-full shadow-2xl" eager />
             </motion.div>
           ))}
         </AnimatePresence>

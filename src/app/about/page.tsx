@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import type { Metadata } from "next";
 import Footer from "@/components/Footer";
 import Reveal from "@/components/Reveal";
@@ -62,7 +62,7 @@ export default function About() {
         </div>
         <Reveal className="relative md:sticky md:top-24 md:self-start">
           <div className="relative w-full" style={{ aspectRatio: `${tall.width}/${tall.height}` }}>
-            <Image src={tall.src} alt="Painting by Susmit Biswas" fill sizes="(min-width:768px) 45vw, 100vw" className="object-cover" priority />
+            <ArtImg art={tall} size="l" alt="Painting by Susmit Biswas" fill className="object-cover" eager />
           </div>
           <span className="eyebrow mt-3 block text-ink/50">Paintings — detail</span>
         </Reveal>
@@ -83,7 +83,7 @@ export default function About() {
               If you look, you may <em>not leap</em>
             </h2>
             <div className="relative mt-10 hidden aspect-[4/5] w-2/3 md:block">
-              <Image src={fig.src} alt="" fill sizes="30vw" className="object-cover" />
+              <ArtImg art={fig} size="m" fill className="object-cover" />
             </div>
           </div>
           <div className="space-y-7 text-lg leading-[1.75] text-paper/80 md:text-xl">

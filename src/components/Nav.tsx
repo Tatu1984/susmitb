@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+import ArtImg from "@/components/ArtImg";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
@@ -52,28 +52,30 @@ export default function Nav() {
 
   return (
     <>
-      <header className="pointer-events-none fixed inset-x-0 top-0 z-[80] flex items-start justify-between px-4 py-4 text-paper mix-blend-difference md:px-8 md:py-6">
-        <Link href="/" className="pointer-events-auto serif text-2xl leading-none md:text-[28px]" data-cursor="Home">
+      {/* soft dark fade so the bar reads over any painting */}
+      <div className="pointer-events-none fixed inset-x-0 top-0 z-[79] h-28 bg-gradient-to-b from-ink/75 via-ink/35 to-transparent md:h-32" />
+      <header className="nav-legible pointer-events-none fixed inset-x-0 top-0 z-[80] flex items-center justify-between gap-3 px-3 py-3 text-paper md:px-6 md:py-5">
+        <Link href="/" className="nav-pill pointer-events-auto serif px-4 py-2 text-xl leading-none md:text-2xl" data-cursor="Home">
           Susmit <em>Biswas</em>
         </Link>
-        <div className="eyebrow hidden gap-10 pt-1 md:flex">
-          <span>Kolkata · <KolkataClock /> IST</span>
-          <span>Painter / Improviser</span>
+        <div className="eyebrow hidden gap-2 lg:flex">
+          <span className="nav-pill px-4 py-2.5">Kolkata · <KolkataClock /> IST</span>
+          <span className="nav-pill px-4 py-2.5">Painter / Improviser</span>
         </div>
-        <div className="flex items-start gap-6 md:gap-8">
-        <CartButton />
-        <button
-          onClick={() => setOpen((o) => !o)}
-          className="pointer-events-auto eyebrow flex items-center gap-3 pt-1"
-          data-cursor={open ? "Close" : "Menu"}
-          aria-expanded={open}
-        >
-          <span>{open ? "Close" : "Index"}</span>
-          <span className="relative block h-3 w-6">
-            <span className={`absolute left-0 h-px w-6 bg-current transition-all duration-500 ${open ? "top-1.5 rotate-45" : "top-0.5"}`} />
-            <span className={`absolute left-0 h-px w-6 bg-current transition-all duration-500 ${open ? "top-1.5 -rotate-45" : "top-2.5"}`} />
-          </span>
-        </button>
+        <div className="flex items-center gap-2">
+          <div className="nav-pill px-4 py-2.5"><CartButton /></div>
+          <button
+            onClick={() => setOpen((o) => !o)}
+            className="nav-pill pointer-events-auto eyebrow flex items-center gap-3 px-4 py-2.5"
+            data-cursor={open ? "Close" : "Menu"}
+            aria-expanded={open}
+          >
+            <span>{open ? "Close" : "Index"}</span>
+            <span className="relative block h-3 w-6">
+              <span className={`absolute left-0 h-[1.5px] w-6 bg-current transition-all duration-500 ${open ? "top-1.5 rotate-45" : "top-0.5"}`} />
+              <span className={`absolute left-0 h-[1.5px] w-6 bg-current transition-all duration-500 ${open ? "top-1.5 -rotate-45" : "top-2.5"}`} />
+            </span>
+          </button>
         </div>
       </header>
 
@@ -97,7 +99,7 @@ export default function Nav() {
                   exit={{ opacity: 0 }}
                   transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
                 >
-                  <Image src={hoverArt.src} alt="" fill sizes="100vw" className="object-cover blur-[2px]" />
+                  <ArtImg art={hoverArt} size="l" fill className="object-cover blur-[2px]" eager />
                   <div className="absolute inset-0 bg-gradient-to-r from-ink via-ink/60 to-transparent" />
                 </motion.div>
               )}
