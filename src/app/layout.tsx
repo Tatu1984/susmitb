@@ -5,6 +5,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 import Cursor from "@/components/Cursor";
 import Nav from "@/components/Nav";
 import Protect from "@/components/Protect";
+import ScreenshotShield from "@/components/ScreenshotShield";
 import CartDrawer from "@/components/CartDrawer";
 import { CartProvider } from "@/lib/cart";
 
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <CartProvider>
           <SmoothScroll />
           <Protect />
+          <ScreenshotShield />
           <Nav />
           {children}
           <CartDrawer />

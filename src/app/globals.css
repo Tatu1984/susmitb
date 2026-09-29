@@ -115,3 +115,21 @@ img, canvas {
 .nav-legible .eyebrow { font-weight: 500; }
 .hero-legible { text-shadow: 0 2px 6px rgba(0, 0, 0, 0.55), 0 8px 40px rgba(0, 0, 0, 0.5); }
 .hero-legible .eyebrow { font-weight: 500; }
+
+/* ---------- screenshot shield ---------- */
+.shield-panel {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: var(--ink);
+  color: var(--paper);
+}
+html.shield .shield-panel { display: flex; }
+html.shield img:not(.shield-panel img),
+html.shield canvas,
+html.shield video,
+html.shield [data-art] { visibility: hidden !important; }
