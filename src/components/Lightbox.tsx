@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { AnimatePresence, motion } from "motion/react";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
+import { useCart, type Edition } from "@/lib/cart";
 import { type Artwork, mediumOf, plate } from "@/lib/art";
 import { getLenis } from "./SmoothScroll";
 
@@ -21,6 +22,9 @@ export default function Lightbox({
   const open = index !== null;
   const a = open ? items[index] : null;
   const strip = useRef<HTMLDivElement>(null);
+  const [edition, setEdition] = useState<Edition>("original");
+  const cart = useCart();
+  const inSet = a ? cart.has(a.id) : false;
 
   useEffect(() => {
     if (!open) return;
@@ -74,21 +78,46 @@ export default function Lightbox({
                 </dl>
               </div>
               <div className="flex flex-col gap-3">
-                <div className="rounded-2xl border border-dashed border-paper/25 p-4">
-                  <span className="eyebrow text-paper/50">Acquire</span>
-                  <div className="mt-3 grid grid-cols-2 gap-2">
-                    <span className="eyebrow rounded-full border border-paper/20 px-3 py-2 text-center text-paper/40">This work</span>
-                    <span className="eyebrow rounded-full border border-paper/20 px-3 py-2 text-center text-paper/40">As a set</span>
+                <div className="rounded-2xl border border-paper/15 bg-ink/30 p-4">
+                  <span className="eyebrow text-paper/50">Edition</span>
+                  <div className="mt-3 grid grid-cols-2 gap-1 rounded-full border border-paper/15 p-1">
+                    {(["original", "print"] as Edition[]).map((ed) => (
+                      <button
+                        key={ed}
+                        onClick={() => setEdition(ed)}
+                        className={`eyebrow rounded-full py-2 text-[10px] transition-colors ${edition === ed ? "bg-paper text-ink" : "text-paper/60 hover:text-paper"}`}
+                      >
+                        {ed === "original" ? "Original" : "Fine-art print"}
+                      </button>
+                    ))}
                   </div>
-                  <p className="mt-3 text-xs text-paper/40">Purchase options open soon.</p>
+                  <div className="mt-4 flex items-baseline justify-between">
+                    <span className="eyebrow text-paper/50">{edition === "original" ? "One of one" : "Edition details soon"}</span>
+                    <span className="serif text-2xl">Price on request</span>
+                  </div>
                 </div>
-                <Link
-                  href={`/contact?work=${a.id}`}
-                  className="eyebrow rounded-full bg-paper px-5 py-3.5 text-center text-ink transition-colors hover:bg-accent"
-                  data-cursor="Write"
+                <button
+                  onClick={() => cart.add(a.id, edition)}
+                  className="eyebrow rounded-full bg-paper px-5 py-4 text-center text-ink transition-colors hover:bg-accent"
+                  data-cursor="Buy"
                 >
-                  Enquire about this work
-                </Link>
+                  Buy now →
+                </button>
+                <div className="grid grid-cols-2 gap-2">
+                  <button
+                    onClick={() => (inSet ? cart.remove(a.id) : cart.add(a.id, edition, false))}
+                    className={`eyebrow rounded-full border px-4 py-3 text-center text-[10px] transition-colors ${inSet ? "border-accent bg-accent text-ink" : "border-paper/30 hover:border-paper"}`}
+                  >
+                    {inSet ? "In your set ✓" : "+ Add to set"}
+                  </button>
+                  <Link
+                    href={`/contact?work=${a.id}`}
+                    className="eyebrow rounded-full border border-paper/30 px-4 py-3 text-center text-[10px] transition-colors hover:border-paper"
+                    data-cursor="Write"
+                  >
+                    Enquire
+                  </Link>
+                </div>
               </div>
             </aside>
 
@@ -97,6 +126,7 @@ export default function Lightbox({
               <AnimatePresence mode="popLayout" initial={false}>
                 <motion.div
                   key={a.id}
+                  data-art
                   className="absolute inset-4 top-20 md:inset-10 md:top-24"
                   initial={{ opacity: 0, scale: 0.94, filter: "blur(12px)" }}
                   animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
@@ -118,7 +148,7 @@ export default function Lightbox({
             </div>
           </div>
 
-          <div ref={strip} className="relative flex h-20 shrink-0 gap-2 overflow-x-auto px-4 pb-4 [scrollbar-width:none] md:px-8">
+          <div ref={strip} data-art className="relative flex h-20 shrink-0 gap-2 overflow-x-auto px-4 pb-4 [scrollbar-width:none] md:px-8">
             {items.map((it, i) => (
               <button
                 key={it.id}

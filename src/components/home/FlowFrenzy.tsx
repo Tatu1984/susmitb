@@ -5,6 +5,7 @@ import Link from "next/link";
 import { motion, useScroll, useSpring, useTransform, useVelocity } from "motion/react";
 import { useEffect, useRef, useState } from "react";
 import { byId, plate } from "@/lib/art";
+import ArtActions from "@/components/ArtActions";
 
 const picks = [
   "paintings-p26-01", "paintings-p19-04", "paintings-p26-12", "paintings-p19-25", "paintings-p26-15",
@@ -55,14 +56,13 @@ export default function FlowFrenzy() {
             </p>
           </div>
           {picks.map((a, i) => (
-            <Link
+            <div
               key={a.id}
-              href={`/work/paintings?w=${a.id}`}
               className="group relative shrink-0"
               style={{ height: heights[i], marginTop: offsets[i], aspectRatio: `${a.width}/${a.height}` }}
-              data-cursor="View"
             >
-              <motion.div className="relative h-full w-full overflow-hidden" style={{ skewX: skew }}>
+              <Link href={`/work/paintings?w=${a.id}`} data-cursor="View" className="block h-full w-full">
+              <motion.div data-art className="relative h-full w-full overflow-hidden" style={{ skewX: skew }}>
                 <Image
                   src={a.src}
                   alt={`Painting, plate ${plate(a)}`}
@@ -71,11 +71,15 @@ export default function FlowFrenzy() {
                   className="object-cover transition-transform duration-[1.4s] ease-[var(--ease-out)] group-hover:scale-110"
                 />
               </motion.div>
-              <div className="eyebrow mt-3 flex justify-between text-paper/50">
-                <span>Plate {plate(a)}</span>
-                <i className="inline-block h-2.5 w-2.5 rounded-full" style={{ background: a.color }} />
+              </Link>
+              <div className="eyebrow mt-3 flex items-center justify-between gap-4 text-paper/50">
+                <span className="flex items-center gap-2">
+                  <i className="inline-block h-2.5 w-2.5 rounded-full" style={{ background: a.color }} />
+                  Plate {plate(a)}
+                </span>
+                <ArtActions id={a.id} className="w-52 transition-opacity duration-500 md:opacity-0 md:group-hover:opacity-100" />
               </div>
-            </Link>
+            </div>
           ))}
         </motion.div>
       </div>

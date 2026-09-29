@@ -85,3 +85,19 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .grain, .marquee { animation: none; }
 }
+
+/* ---------- artwork protection (deterrent layer) ---------- */
+img, canvas {
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+/* Pointer events land on the wrapper, never on the <img>, so the browser
+   has no image to offer "Save image as…" for. */
+[data-art] img { pointer-events: none; }
+[data-art] { -webkit-touch-callout: none; user-select: none; }
+@media print {
+  img, canvas, [data-art] { visibility: hidden !important; }
+  body::after { content: "Artwork © Susmit Biswas — printing disabled."; position: fixed; inset: 40% 0 auto; text-align: center; color: #000; font: 20px serif; }
+}

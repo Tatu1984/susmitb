@@ -1,5 +1,4 @@
 import { notFound } from "next/navigation";
-import { Suspense } from "react";
 import type { Metadata } from "next";
 import Gallery from "@/components/Gallery";
 import Footer from "@/components/Footer";
@@ -23,9 +22,7 @@ export default async function WorkPage({ params }: PageProps<"/work/[medium]">) 
   const next = media[(i + 1) % media.length];
   return (
     <main>
-      <Suspense>
-        <Gallery medium={m} items={byMedium(m.key as MediumKey)} next={next} />
-      </Suspense>
+      <Gallery medium={m} items={byMedium(m.key as MediumKey)} next={next} />
       <Footer />
     </main>
   );

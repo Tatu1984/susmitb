@@ -4,17 +4,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { motion, useScroll, useTransform } from "motion/react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import { useCallback, useRef } from "react";
+import { Suspense, useCallback, useRef } from "react";
 import Lightbox from "./Lightbox";
+import { TileActions } from "./ArtActions";
 import { type Artwork, type Medium, byId, plate } from "@/lib/art";
 import { shailpik } from "@/data/content";
 
 export default function Gallery({ medium, items, next }: { medium: Medium; items: Artwork[]; next: Medium }) {
-  const params = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
-  const w = params.get("w");
-  const index = w ? items.findIndex((a) => a.id === w) : -1;
   const setIndex = useCallback(
     (i: number | null) => {
       const q = i === null ? "" : `?w=${items[i].id}`;
@@ -78,9 +76,12 @@ export default function Gallery({ medium, items, next }: { medium: Medium; items
 
       <section className="columns-2 gap-3 px-3 py-10 md:columns-3 md:gap-6 md:px-8 md:py-16 xl:columns-4">
         {items.map((a, i) => (
-          <motion.button
+          <motion.div
             key={a.id}
+            role="button"
+            tabIndex={0}
             onClick={() => setIndex(i)}
+            onKeyDown={(e) => e.key === "Enter" && setIndex(i)}
             className="group relative mb-3 block w-full break-inside-avoid text-left md:mb-6"
             initial={{ clipPath: "inset(100% 0 0 0)", y: 60 }}
             whileInView={{ clipPath: "inset(0% 0 0 0)", y: 0 }}
@@ -88,7 +89,7 @@ export default function Gallery({ medium, items, next }: { medium: Medium; items
             transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1], delay: (i % 4) * 0.06 }}
             data-cursor="View"
           >
-            <div className="relative w-full overflow-hidden" style={{ aspectRatio: `${a.width}/${a.height}`, background: a.color }}>
+            <div data-art className="relative w-full overflow-hidden" style={{ aspectRatio: `${a.width}/${a.height}`, background: a.color }}>
               <Image
                 src={a.src}
                 alt={`${medium.title}, plate ${plate(a)}`}
@@ -96,12 +97,13 @@ export default function Gallery({ medium, items, next }: { medium: Medium; items
                 sizes="(min-width:1280px) 25vw, (min-width:768px) 33vw, 50vw"
                 className="object-cover transition-transform duration-[1.2s] ease-[var(--ease-out)] group-hover:scale-[1.06]"
               />
+              <TileActions id={a.id} />
             </div>
             <div className={`eyebrow mt-2 flex justify-between ${paper ? "text-ink/50" : "text-paper/50"}`}>
               <span>{plate(a)}</span>
-              <span className="opacity-0 transition-opacity duration-500 group-hover:opacity-100">View →</span>
+              <span>Price on request</span>
             </div>
-          </motion.button>
+          </motion.div>
         ))}
       </section>
 
@@ -116,7 +118,16 @@ export default function Gallery({ medium, items, next }: { medium: Medium; items
         </span>
       </Link>
 
-      <Lightbox items={items} index={index >= 0 ? index : null} onClose={() => setIndex(null)} onIndex={setIndex} />
+      <Suspense>
+        <QueryLightbox items={items} setIndex={setIndex} />
+      </Suspense>
     </div>
   );
+}
+
+// Only the lightbox depends on ?w=, so the grid itself still server-renders.
+function QueryLightbox({ items, setIndex }: { items: Artwork[]; setIndex: (i: number | null) => void }) {
+  const w = useSearchParams().get("w");
+  const index = w ? items.findIndex((a) => a.id === w) : -1;
+  return <Lightbox items={items} index={index >= 0 ? index : null} onClose={() => setIndex(null)} onIndex={setIndex} />;
 }

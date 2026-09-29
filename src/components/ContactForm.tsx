@@ -18,7 +18,16 @@ function Field({ label, name, type = "text", area }: { label: string; name: stri
 }
 
 export default function ContactForm() {
-  const work = byId(useSearchParams().get("work") ?? "");
+  const params = useSearchParams();
+  const single = params.get("work");
+  // ?works=id:edition,id:edition comes from the "Your set" drawer
+  const picked = (single ? [`${single}:original`] : (params.get("works") ?? "").split(","))
+    .map((x) => {
+      const [id, ed] = x.split(":");
+      const art = byId(id);
+      return art ? { art, ed: ed === "print" ? "Fine-art print" : "Original" } : null;
+    })
+    .filter((x): x is NonNullable<typeof x> => !!x);
   const [sent, setSent] = useState(false);
 
   return (
@@ -39,15 +48,24 @@ export default function ContactForm() {
               setSent(true);
             }}
           >
-            {work && (
-              <div className="flex items-center gap-4 rounded-2xl border border-paper/15 p-3">
-                <div className="relative h-16 w-16 shrink-0 overflow-hidden">
-                  <Image src={work.src} alt="" fill sizes="64px" className="object-cover" />
-                </div>
-                <div>
-                  <span className="eyebrow text-paper/50">Enquiry for</span>
-                  <p className="serif text-2xl">{mediumOf(work.medium).title} — Plate {plate(work)}</p>
-                </div>
+            {picked.length > 0 && (
+              <div className="rounded-2xl border border-paper/15 p-3">
+                <span className="eyebrow text-paper/50">
+                  {picked.length > 1 ? `Enquiry for a set of ${picked.length}` : "Enquiry for"}
+                </span>
+                <ul className="mt-3 flex flex-col gap-3">
+                  {picked.map(({ art, ed }) => (
+                    <li key={art.id} className="flex items-center gap-4">
+                      <div data-art className="relative h-14 w-14 shrink-0 overflow-hidden">
+                        <Image src={art.src} alt="" fill sizes="56px" className="object-cover" />
+                      </div>
+                      <div>
+                        <p className="serif text-xl leading-none">{mediumOf(art.medium).title} — Plate {plate(art)}</p>
+                        <p className="eyebrow mt-1 text-paper/50">{ed}</p>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
               </div>
             )}
             <Field label="Your name" name="name" />

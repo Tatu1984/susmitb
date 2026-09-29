@@ -7,6 +7,7 @@ import { AnimatePresence, motion } from "motion/react";
 import { useEffect, useState } from "react";
 import { media, byId } from "@/lib/art";
 import { getLenis } from "./SmoothScroll";
+import { CartButton } from "./CartDrawer";
 
 const extra = [
   { href: "/wall", title: "The Wall", cover: "paintings-p26-06", note: "All 196 works" },
@@ -59,6 +60,8 @@ export default function Nav() {
           <span>Kolkata · <KolkataClock /> IST</span>
           <span>Painter / Improviser</span>
         </div>
+        <div className="flex items-start gap-6 md:gap-8">
+        <CartButton />
         <button
           onClick={() => setOpen((o) => !o)}
           className="pointer-events-auto eyebrow flex items-center gap-3 pt-1"
@@ -71,6 +74,7 @@ export default function Nav() {
             <span className={`absolute left-0 h-px w-6 bg-current transition-all duration-500 ${open ? "top-1.5 -rotate-45" : "top-2.5"}`} />
           </span>
         </button>
+        </div>
       </header>
 
       <AnimatePresence>
