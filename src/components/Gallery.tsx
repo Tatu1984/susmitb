@@ -85,7 +85,9 @@ export default function Gallery({ medium, items, next }: { medium: Medium; items
             onKeyDown={(e) => e.key === "Enter" && setIndex(i)}
             className="group relative mb-3 block w-full break-inside-avoid text-left md:mb-6"
             initial={{ clipPath: "inset(100% 0 0 0)", y: 60 }}
-            whileInView={{ clipPath: "inset(0% 0 0 0)", y: 0 }}
+            // Drop clip-path once revealed: Safari mis-hit-tests clipped elements inside CSS columns,
+            // leaving only the first column clickable.
+            whileInView={{ clipPath: "inset(0% 0 0 0)", y: 0, transitionEnd: { clipPath: "none" } }}
             viewport={{ once: true, margin: "-8% 0px" }}
             transition={{ duration: 1.1, ease: [0.16, 1, 0.3, 1], delay: (i % 4) * 0.06 }}
             data-cursor="View"
